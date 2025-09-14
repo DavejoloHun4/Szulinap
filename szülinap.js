@@ -4,7 +4,7 @@ let w = (c.width = window.innerWidth),
   hw = w / 2;
 (hh = h / 2),
   (opts = {
-    strings: ["BOLDOG", "45.SZÜLETÉSNAPOT","ANYA!","NAGYON","SZERETLEK!❤️"],
+    strings: ["BOLDOG", "45.SZÜLETÉSNAPOT,","ANYA!","NAGYON","SZERETLEK!❤️"],
     charSize: 30,
     charSpacing: 35,
     lineHeight: 40,
@@ -395,6 +395,7 @@ for (let i = 0; i < opts.strings.length; ++i) {
 
     ctx.font = opts.charSize + "px Verdana";
 });
+
 
 
 
